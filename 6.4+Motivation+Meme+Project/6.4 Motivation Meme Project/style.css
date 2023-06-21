@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&display=swap');
+h1{
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: rgb(213, 190, 41);
+}
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+div{
+    width: 50%;
+    margin-left: 25%
+}
+img{
+    border: 5px solid white;
+    width: 100%;
+}
+.Quote{
+    font-size: 1.158rem;
+}
+
