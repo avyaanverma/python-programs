@@ -1,0 +1,54 @@
+
+
+/* 
+ @media mediaType and (condition1) and (condition2) {
+    CSS rules to apply 
+  } */
+
+  /* The media type is specified after the @media keyword. 
+  Common media types include screen (for computer screens), print (for printing), 
+  all (default for all devices), and others like handheld, tv, speech, etc
+
+  Media queries can include various conditions. Some commonly used conditions are:
+
+Width and height: Specifying min-width, max-width, min-height, or max-height allows you 
+to target specific ranges of viewport dimensions.
+Aspect ratio: Using min-aspect-ratio and max-aspect-ratio, 
+you can target specific aspect ratios.
+
+Orientation: orientation condition allows you
+ to target portrait or landscape orientations.
+Resolution: min-resolution and max-resolution enable you to target devices with specific pixel densities.
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+    /* CSS rules to apply for screens wider than 768px in landscape mode */
+  
+
+
+/* <!-- 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+ */
+ @media (min-width:319px) and (max-width: 480px){
+    body{
+        background-color: lightsalmon;
+    }
+ }
+ @media (min-width:418px) and (max-width: 1200px){
+    body{
+        background-color: powderblue;
+    }
+ }
+ @media (min-width:1201px) and (max-width: 1600px){
+    body{
+        background-color: limegreen;
+    }
+ }
+ @media (min-width:1601px){
+    body{
+        background-color: seagreen;
+    }
+ }
