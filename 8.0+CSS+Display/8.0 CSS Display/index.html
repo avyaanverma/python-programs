@@ -15,14 +15,15 @@
     }
 
     .red {
-      display: block;
+      display: inline-block;
       width: 200px;
       height: 200px;
       background-color: red;
     }
 
     .green {
-      display: inline;
+      /* display: inline; me adding inline in this tag makes the block appear like a line */
+      display:inline-block; /* I guess automatically it is selected as a block only */ 
       width: 200px;
       height: 200px;
       background-color: green;
